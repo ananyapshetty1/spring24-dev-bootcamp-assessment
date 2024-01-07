@@ -1,0 +1,88 @@
+/* Your Styles Here */
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#paragraph {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14 px;
+    text-align: center;
+    border: 5px solid #ADB4Bf;
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+#aboutme {
+    font-family: Perpetua;
+    font-size: 32 px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px; 
+    text-align: center;
+}
+
+#picture {
+    height: 300px;
+    width: 315px;
+    border-radius: 200px;
+    border: 5px solid #ADB4Bf;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture:hover {
+    box-shadow: 0px 0px 5px #C2C2C2;
+}
+
+#background {
+    background-color: #F8C8DC;
+}
+
+form {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+#results {
+    border: 5px solid #ADB4Bf;
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14 px;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: 500px;
+    border-radius: 100px;
+}
+
+#submit-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 2rem auto;
+    border-radius: 20px;
+}
+
+.submit-btn {
+    margin: 8px;
+    padding: 8px 15px;
+    cursor: pointer;
+
+    background-color: #59f107;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.submit-btn:hover {
+    box-shadow: 0px 0px 5px #C2C2C2;
+}
