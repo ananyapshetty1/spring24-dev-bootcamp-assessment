@@ -10,13 +10,13 @@ let image;
 
 if (question == "movie"){
     characters = '10 Things I Hate About You';
-    image='movie.jpg';
+    image='./movie.jpg';
 } else if (question == "icecream"){
     characters = 'mango';
-    image='icecream.jpg';
+    image='./icecream.jpg';
 } else {
     characters = 'light pink';
-    image='lightpink.jpg';
+    image='./lightpink.jpg';
 }
 
 function postData() {
